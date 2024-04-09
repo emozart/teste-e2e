@@ -4,10 +4,6 @@ on:
   push:
     branches:
       - main
-    paths:
-      - "./**.js"
-      - "./**.json"
-      - "./**.yml"
 
 jobs:
   e2e-tests:
