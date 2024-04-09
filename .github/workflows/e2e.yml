@@ -17,11 +17,10 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: 20.12.1
+          cache: npm
 
       - name: Install dependencies
         run: npm install
 
       - name: Run Cypress tests
-        uses: cypress-io/github-action@v2
-        with:
-          start: npm run cypress:headless
+        run: npm run cypress:headless
