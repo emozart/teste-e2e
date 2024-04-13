@@ -3,7 +3,8 @@
 Esse desafio foi proposto pelo Erick Wendel nesse vídeo:
 [https://www.youtube.com/watch?v=56N0P67ffIA](https://www.youtube.com/watch?v=56N0P67ffIA)
 
-Hoje, dia 09 de abril de 2024, eu implementei a primeira parte que está no vídeo.
+###Concluído
+
 Tive que fazer algumas mudanças para que funcionasse corretamente pois estou usando uma estrutura de pastas diferente e
 isso gerou o erro abaixo no github actions:
 
