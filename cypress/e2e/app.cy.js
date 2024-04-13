@@ -33,12 +33,8 @@ class RegisterForm {
 const registerForm = new RegisterForm();
 const colors = {
   errors: "rgb(220, 53, 69)",
-  success: "rgb(222, 226, 230)",
+  success: "rgb(134, 183, 254)" //"rgb(222, 226, 230)",
 };
-
-const icons = {
-  success: "data:image/svg+xml,%3csvg xmlns='http://www.w3.org…27 1.2.7l-4 4.6c-.43.5-.8.4-1.1.1z'/%3e%3c/svg%3e"
-}
 
 describe("Image Registration", () => {
   describe("Submitting an image with invalid inputs", () => {
